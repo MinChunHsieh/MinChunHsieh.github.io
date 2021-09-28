@@ -63,15 +63,16 @@ section.banner {
 }
 
 .memories img {
-  width: 25rem;
+  width: 20rem;
 }
 
 .event img {
-  width: 15rem;
+  width: 13rem;
+  margin: 0 0 0 2rem;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.75rem;
   text-align: center;
   color: #F2116C;
   padding: 1rem 0 1rem 0;
@@ -79,12 +80,13 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
 }
 
 p{
-  padding: 1rem;
+  padding: 0rem;
+  line-height: 1rem;
 }
 
 .intro p {
@@ -96,13 +98,17 @@ p{
 }
 
 section.intro, section.event, section.memories, section.nngstudio {
-    padding: 3rem 2rem 2rem 2rem;
-    display: table-row;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 .alignright {
+  float: left;
+  padding: 0 0 0 1rem;
+}
+
+.alignleft {
   float: right;
-  margin: 0 1rem 1rem 0;
+  margin: 0 0 1rem 1rem;
 }
 
 iframe {

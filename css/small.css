@@ -13,6 +13,29 @@
 
 .alignright{
   text-align: center;
-  margin: 2rem 0 0 0;
+  padding: 0 0 1rem 0;
   float: none;
+}
+
+.alignleft{
+  text-align: center;
+  margin: 1rem 0 0 0;
+  float: none;
+}
+
+p {
+  line-height: 1rem;
+}
+
+section.event h1 {
+  padding-bottom: 1rem;
+}
+
+section.event img {
+  margin: 1rem 0 0 0;
+}
+
+section.event p {
+  margin: 0;
+  padding: 0;
 }
